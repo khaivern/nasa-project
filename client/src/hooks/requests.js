@@ -1,4 +1,4 @@
-const API_URL = "v1";
+const API_URL = "https://kkv-nasa-project-4f5d92bb35db.herokuapp.com/v1";
 
 async function httpGetPlanets() {
   const response = await fetch(`${API_URL}/planets`);
