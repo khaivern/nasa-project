@@ -7,7 +7,7 @@ const api = require("./routes/api");
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(cors());
 app.use(morgan("combined"));
 
 app.use(express.json());
